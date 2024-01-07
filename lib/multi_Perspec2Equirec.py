@@ -2,7 +2,7 @@ import os
 import sys
 import cv2
 import numpy as np
-import lib.Perspec2Equirec as P2E
+import perspective_and_equirectangular.lib.Perspec2Equirec as P2E
 
 
 class Perspective:
