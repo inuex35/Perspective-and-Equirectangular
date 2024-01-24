@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 
 class Equirectangular:
-    def __init__(self, img_name):
-        self._img = cv2.imread(img_name, cv2.IMREAD_COLOR)
+    def __init__(self, img):
+        self._img = img
         [self._height, self._width, _] = self._img.shape
         print(self._img.shape)
     
