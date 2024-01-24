@@ -6,9 +6,7 @@ import numpy as np
 class Equirectangular:
     def __init__(self, img):
         self._img = img
-        [self._height, self._width, _] = self._img.shape
-        print(self._img.shape)
-    
+        [self._height, self._width, _] = self._img.shape    
 
     def GetPerspective(self, FOV, THETA, PHI, height, width):
         #
